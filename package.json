@@ -1,0 +1,28 @@
+{
+  "name": "react-dev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "foreman": "^2.0.0",
+    "marked": "^0.3.19",
+    "material-ui": "^0.20.0",
+    "mongoose": "^5.0.17",
+    "nodemon": "^1.17.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "concurrently \"react-scripts start\" \"node server.js\""
+  }
+}
